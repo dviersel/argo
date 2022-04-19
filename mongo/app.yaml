@@ -4,7 +4,7 @@ metadata:
   name: mongo
   namespace: argocd
 spec:
-  project: perfana
+  project: default
   source:
     chart: mongodb
     repoURL: 'https://charts.bitnami.com/bitnami'
