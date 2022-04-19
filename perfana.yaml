@@ -1,0 +1,13 @@
+project: default
+source:
+  repoURL: 'https://github.com/dviersel/argo'
+  path: .
+  targetRevision: HEAD
+  directory:
+    recurse: true
+destination:
+  server: 'https://kubernetes.default.svc'
+  namespace: perfana
+syncPolicy:
+  syncOptions:
+    - CreateNamespace=true
