@@ -13,7 +13,7 @@ spec:
     targetRevision: 6.1.4
     helm:
       valueFiles:
-      - values.yaml
+      - podinfo/values.yaml
   destination:
     server: https://kubernetes.default.svc
     namespace: podinfo
