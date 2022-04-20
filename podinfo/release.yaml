@@ -1,0 +1,5 @@
+helmCharts:
+- name: podinfo
+  releaseName: podinfo
+  namespace: podinfo
+ 
